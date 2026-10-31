@@ -1,2 +1,3 @@
-63104,MOVICEL,AGOMV
-63102,UNITEL,UNITEL
+version https://git-lfs.github.com/spec/v1
+oid sha256:6fec20d4ef155769755edd9d4553e86bac3f68bee9fd213e66244f461b3f206a
+size 42

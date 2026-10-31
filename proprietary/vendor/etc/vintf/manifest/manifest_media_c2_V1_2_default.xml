@@ -1,11 +1,3 @@
-<manifest version="1.0" type="device">
-    <hal>
-        <name>android.hardware.media.c2</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>IComponentStore</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-</manifest>
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ba17b53f9d077b646c7a36ce8e3f4251e557dde0257125e96d2d13be279cdab
+size 313

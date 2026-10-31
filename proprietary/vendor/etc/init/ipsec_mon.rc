@@ -1,11 +1,3 @@
-service ipsec_mon /vendor/bin/ipsec_mon
-    class main
-    user system
-    oneshot
-    group net_admin net_raw system misc
-    capabilities NET_ADMIN NET_RAW
-
-#
-# ePDG related services (End)
-#
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:545a5d89d7dcc73cb36e13c35427d71d356518845aae517cb035aba87eae64bd
+size 194

@@ -1,5 +1,3 @@
-33490,AT&T,AT&T
-334070,AT&T,AT&T
-334050,AT&T,AT&T
-33403,Movistar,TEMM
-334020,TELCEL,TELCEL
+version https://git-lfs.github.com/spec/v1
+oid sha256:82bb5de1a1f233b38aa01af3054c22daa82ea09fe05d662b8c4268dd255468ad
+size 96

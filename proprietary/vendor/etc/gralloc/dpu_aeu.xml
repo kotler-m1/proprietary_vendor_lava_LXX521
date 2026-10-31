@@ -1,20 +1,3 @@
-<capabilities version="0.2">
-    <ip_capabilities ip="DPU_AEU">
-        <feature name="FORMAT_R10G10B10A2" permission="RW" />
-        <feature name="FORMAT_R16G16B16A16_FLOAT" permission="NO" />
-        <feature name="FORMAT_RGB16" permission="NO" />
-        <feature name="AFBC_16X16" permission="NO" />
-        <feature name="AFBC_32X8" permission="NO" />
-        <feature name="AFBC_YUV" permission="NO" />
-        <feature name="AFBC_BLOCK_SPLIT" permission="NO" />
-        <feature name="AFBC_TILED_HEADERS" permission="NO" />
-        <feature name="AFBC_64X4" permission="NO" />
-        <feature name="AFBC_DOUBLE_BODY" permission="NO" />
-        <feature name="AFBC_FORMAT_R16G16B16A16_FLOAT" permission="NO" />
-        <feature name="AFBC_WRITE_NON_SPARSE" permission="NO" />
-        <feature name="AFRC_ROT_LAYOUT" permission="NO" />
-        <feature name="AFRC_SCAN_LAYOUT" permission="NO" />
-        <feature name="YUV_BL_8" permission="NO" />
-        <feature name="YUV_BL_10" permission="NO" />
-    </ip_capabilities>
-</capabilities>
+version https://git-lfs.github.com/spec/v1
+oid sha256:83f7a3d61a68bb4cfd28d807c7e8a8e78ec936b6422a426884d2f6745ec33a4b
+size 1046

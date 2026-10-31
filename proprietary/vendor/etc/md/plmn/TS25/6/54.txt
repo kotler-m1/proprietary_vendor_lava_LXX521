@@ -1,2 +1,3 @@
-65401,HURI,HURI
-65402,TELCO,COMTM
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb8b2d55279b987993bd4127de1f18f7d1f20017f03271cb2b6dd79c9b1e3920
+size 36

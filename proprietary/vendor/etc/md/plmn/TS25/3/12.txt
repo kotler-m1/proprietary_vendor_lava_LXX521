@@ -1,9 +1,3 @@
-312260,USACL,USACL
-312180,Limitless Mobile,LMUSA
-312480,Nemont,Nemont
-312630,NetGenuity,NetGenui
-312420,Nex-Tech Wireless USA,NTW
-312870,GigSky,GigSky
-312720,Southern Linc,SLINC
-312280,Pioneer,CNP
-312290,Strata Networks USA,Strata
+version https://git-lfs.github.com/spec/v1
+oid sha256:970e95151f17712bdb6ee37a72fcc63b18888eccb5917b4006e2339132d165b4
+size 240

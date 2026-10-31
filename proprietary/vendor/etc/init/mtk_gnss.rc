@@ -1,8 +1,3 @@
-service vendor.mtkgnss-service /vendor/bin/hw/vendor.mediatek.hardware.gnss-service
-    interface aidl vendor.mediatek.hardware.gnss.batching.IMtkGnssBatching/default
-
-    class hal
-    disabled
-    oneshot
-    user system
-    group system gps
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f3dedf73698d5410a1e13d4a6ba913535760d8ad129b1d263e5dde26fbec12d
+size 243

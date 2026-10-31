@@ -1,4 +1,3 @@
-27202,3,3
-27205,3,3
-27203,IRL - METEOR,METEOR
-27201,vodafone IE,voda IE
+version https://git-lfs.github.com/spec/v1
+oid sha256:acba96e63b99541b7485ce94eecab0ace9db817639610635d44237ea777964c1
+size 76

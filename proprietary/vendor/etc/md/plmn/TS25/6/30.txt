@@ -1,5 +1,3 @@
-63090,Africell RDC,AFRICELL
-63086,Orange RDC,Orange
-63089,TIGO DRC,TIGO
-63002,Airtel,Airtel
-63001,Vodacom Congo,VODACOM
+version https://git-lfs.github.com/spec/v1
+oid sha256:23ba298730f950158d2ad7696f2107af28d0171db27417d854e15ee7ecd64cf8
+size 125

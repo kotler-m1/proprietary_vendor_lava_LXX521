@@ -1,16 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamUnitDesc version="1.0">
-	<CategoryTypeList>
-		<CategoryType name="CategoryLayer" wording="CategoryLayer">
-			<Category name="Common"/>
-			<Category name="EPL_On"/>
-			<Category name="EPL_Off"/>	
-		</CategoryType>
-	</CategoryTypeList>
-	<ParamUnit>
-		<Param name="speech_common_para" type="ushort_array">
-			<Field name="Loud speaker mode Pre-Clipping threshold" array_index="3" bit="0,2"              check_list="0,8960,1,10752,2,12902,3,15483,4,18579,5,22295,6,26754,7,32767"/>
-		</Param>
-		<Param name="debug_info" type="ushort_array"/>
-	</ParamUnit>
-</ParamUnitDesc>
+version https://git-lfs.github.com/spec/v1
+oid sha256:90afc406c3ca97207419faadb390a131c847ea9481b2c07f802827531d9ec3d0
+size 614

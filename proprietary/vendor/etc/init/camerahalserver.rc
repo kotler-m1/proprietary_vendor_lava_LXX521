@@ -1,10 +1,3 @@
-on post-fs-data
-    chmod 666 /proc/ppb/ppb_camera_power
-
-service camerahalserver /vendor/bin/hw/camerahalserver
-    class main
-    user cameraserver
-    group audio camera input drmrpc sdcard_rw system media graphics
-    ioprio rt 4
-    capabilities SYS_NICE
-    task_profiles CameraServiceCapacity MaxPerformance
+version https://git-lfs.github.com/spec/v1
+oid sha256:57c508428d3f407234bcae739fb1cb7a6439e8d63c0b00abf3eba236c8718eb2
+size 315

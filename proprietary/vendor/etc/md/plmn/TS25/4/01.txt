@@ -1,4 +1,3 @@
-40177,Tele2,Tele2
-40107,ALTEL,ALTEL
-40101,Beeline KZ,Beeline
-40102,Kcell,Kcell
+version https://git-lfs.github.com/spec/v1
+oid sha256:4162b39597558a09cc4782666c08eb45aaaa90c588bad1872495660f9e29b23c
+size 83

@@ -1,2 +1,3 @@
-54202,DIGICEL,DIGICEL
-54201,FJ VODAFONE,VODAFONE
+version https://git-lfs.github.com/spec/v1
+oid sha256:17dc62b7a06f569b3d1138f2478d45c7c608d4a252b6a4a5c1beb373702ce2dd
+size 51

@@ -1,1 +1,3 @@
-21303,AndorraTelecom,AndorraT
+version https://git-lfs.github.com/spec/v1
+oid sha256:64f1179eb7fe5ed151834cbc75820fe8e908604737ed8693af4bd5ecf2c0a4bf
+size 31

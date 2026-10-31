@@ -1,4 +1,3 @@
-60203,Etisalat,Etisalat
-60202,vodafone EG,voda EG
-60201,Orange EG,Orange
-60204,EGYwe,we
+version https://git-lfs.github.com/spec/v1
+oid sha256:1edf700fd0231139360a12b3b94451159453bf66e37240993ac77de76bc7489e
+size 92

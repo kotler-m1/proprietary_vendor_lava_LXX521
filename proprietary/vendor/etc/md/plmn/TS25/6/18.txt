@@ -1,3 +1,3 @@
-61807,Orange LBR,Orange L
-61804,Novafone 4G,Novafone
-61801,LBR Lonestar Cell,LoneStar
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4804ec59cda01458f80559ad59e0b2126aaf99a3c6b312f13ca85953a122c3e
+size 89

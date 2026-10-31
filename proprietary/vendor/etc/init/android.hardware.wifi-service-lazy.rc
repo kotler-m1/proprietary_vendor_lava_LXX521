@@ -1,8 +1,3 @@
-service vendor.wifi_hal_legacy /vendor/bin/hw/android.hardware.wifi-service-lazy
-    interface aidl android.hardware.wifi.IWifi/default
-    oneshot
-    disabled
-    class hal
-    capabilities NET_ADMIN NET_RAW SYS_MODULE
-    user wifi
-    group wifi gps
+version https://git-lfs.github.com/spec/v1
+oid sha256:0862e237a3f756548a9882e81578bf5c71569c1e6b884ae8cb1040c985fd464e
+size 254

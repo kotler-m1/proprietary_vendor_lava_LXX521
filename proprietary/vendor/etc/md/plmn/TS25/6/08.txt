@@ -1,3 +1,3 @@
-60802,SEN,Free
-60801,Orange SN,OrangeSN
-60803,SEN expresso,Expresso
+version https://git-lfs.github.com/spec/v1
+oid sha256:a30ccd34dd81f654be026411a5678dcf649a33ccedd214b7763cb8d12b6c7df9
+size 71

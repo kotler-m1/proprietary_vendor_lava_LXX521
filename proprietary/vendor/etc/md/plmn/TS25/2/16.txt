@@ -1,4 +1,3 @@
-21670,vodafone HU,voda HU
-21630,Telekom HU,THU
-21601,Yettel HU,Yettel
-21603,Digi.Mobil HU,Digi HU
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca847769216d24b95a9ff3fd7001e0c893ad2f38976d25d642a33c6d442848ef
+size 102

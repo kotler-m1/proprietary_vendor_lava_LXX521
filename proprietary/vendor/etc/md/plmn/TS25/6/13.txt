@@ -1,2 +1,3 @@
-61302,Orange BF,Orange
-61301,ONATEL,ONATEL
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ea63ced41f679009fda84782f1f518179fd596c9296c64018b9aaf2964be21e
+size 45

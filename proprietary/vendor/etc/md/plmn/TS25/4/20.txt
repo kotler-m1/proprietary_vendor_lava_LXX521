@@ -1,4 +1,3 @@
-42004,Zain KSA,Zain KSA
-42003,Mobily-KSA,Mobily
-42001,stc,stc
-42009,salam mobile,salam
+version https://git-lfs.github.com/spec/v1
+oid sha256:89bd891ede2e4afd891d08d9538c5a030cc048f72b0ccf462e33e12f08ac3665
+size 91

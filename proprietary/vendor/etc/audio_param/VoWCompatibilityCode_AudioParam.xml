@@ -1,12 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AudioParam version="1.0">
-  <ParamTree>
-    <Param path="common" param_id="0"/>
-  </ParamTree>
-  <ParamUnitPool>
-    <ParamUnit param_id="0">
-      <Param name="training" value="44I4G3D5"/>
-      <Param name="testing" value="44I4G3D5"/>
-    </ParamUnit>
-  </ParamUnitPool>
-</AudioParam>
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c11a59c522f6810b676249fce3329af285337d5d073c4622660a8ec184b7f24
+size 327

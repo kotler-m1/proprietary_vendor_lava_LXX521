@@ -1,5 +1,3 @@
-25507,TriMob,TriMob
-25506,lifecell,lifecell
-25503,UA-KYIVSTAR,UA-KS
-25502,Beeline UA,Beeline
-25501,VODAFONE,VODAFONE
+version https://git-lfs.github.com/spec/v1
+oid sha256:9fa3abfab808aeb8c7911ec378e117392afcadc938e4c599636ad255982ab0c2
+size 122

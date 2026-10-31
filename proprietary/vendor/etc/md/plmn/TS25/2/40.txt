@@ -1,7 +1,3 @@
-24004,SWEDEN,SWE
-24002,3 SE,3 SE
-24005,Sweden 3G,Sweden3G
-24001,Telia SE,Telia
-24024,Sweden Mobile,MobileS
-24008,Telenor SE,TelenorS
-24007,Tele2,Tele2 SE
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b551c2a52bb029634d860ba725a26826c5a6b78f00eefba09f80bea2a44a894
+size 161

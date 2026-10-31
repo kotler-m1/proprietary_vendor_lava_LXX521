@@ -1,15 +1,3 @@
-302380,KNET,KNET
-302340,Execulink Telecom,ETI
-302940,Wightman,Wightman
-302270,Eastlink,Eastlink
-302880,FastRoam,FastRoam
-302780,SaskTel,SaskTel
-302520,Videotron,CANVT
-302500,Videotron,CANVT
-302610,Bell,Bell
-302490,Freedom,Freedom
-302220,TELUS,TELUS
-302620,Ice Wireless Inc,Ice
-302370,Fido,Fido
-302720,Rogers Wireless,ROGERS
-302480,SSi,SSi
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c8660e87120a50f15d5bae2e6b926585d690f31ed2ab8a8c41c708a65ae4b85
+size 354

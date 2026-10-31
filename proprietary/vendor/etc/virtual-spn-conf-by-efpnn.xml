@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<virtualSpnOverridesByEfPnn version="1">
-<virtualSpnOverride mccmncpnn="26203Ortel D" name="Ortel D"/>
-<virtualSpnOverride mccmncpnn="23430EE" name="EE"/>
-</virtualSpnOverridesByEfPnn>
+version https://git-lfs.github.com/spec/v1
+oid sha256:46a12da86eddfefa1dcb436b21100cc7348f7afa00595a430fca9aff70dd5b79
+size 241

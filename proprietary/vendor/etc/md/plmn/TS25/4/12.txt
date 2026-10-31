@@ -1,4 +1,3 @@
-41250,Etisalat Af,Etisalat
-41240,MTN AF,MTN
-41220,ROSHAN,ROSHAN
-41201,AF AWCC,AWCC
+version https://git-lfs.github.com/spec/v1
+oid sha256:48dcfeecedd46c797ca2a6f48bbbde421e1a21f0e35da8c9ca6e604b2ebbf6b5
+size 87

@@ -1,6 +1,3 @@
-52508,StarHub,StarHub
-52505,StarHub,StarHub
-52501,Singtel,Singtel
-52502,Singtel,Singtel
-52503,SGP-M1,M1
-52510,SIMBA,SIMBA
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e28029458dcf61fa436ac1b7f9ac9df857fb146ea336736167315bcf8705275
+size 128

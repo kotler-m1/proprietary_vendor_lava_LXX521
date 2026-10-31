@@ -1,7 +1,3 @@
-50503,vodafone AU,voda AU
-50571,Telstra Mobile,Telstra
-50572,Telstra Mobile,Telstra
-50501,Telstra Mobile,Telstra
-50502,YES OPTUS,Optus
-50550,Pivotel,Pivotel
-50510,Norfolk Telecom,NT
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f4d81c003ff8d8847d5d0eb15a58715b3eddef5770cea419748b6e5e388de69
+size 189

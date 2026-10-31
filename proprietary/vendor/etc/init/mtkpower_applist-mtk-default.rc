@@ -1,4 +1,3 @@
-service vendor.mtkpower_applist-default /vendor/bin/hw/vendor.mediatek.hardware.mtkpower_applist-service.mediatek
-    class hal
-    user system
-    group system
+version https://git-lfs.github.com/spec/v1
+oid sha256:aeaaf834a1bde522920db9eec7588c4519cb86cde53cb533880e2d3542dd5026
+size 163

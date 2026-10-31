@@ -1,4 +1,3 @@
-36291,CHIPPIE,CHIPPIE
-36251,Telcell GSM,Telcell
-36269,Digicel,Digicel
-36278,Kla,Kla
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab9f469c8f0708a71eff4c8a3ff8f542383618c0876cc580810444aa2bf10b28
+size 88

@@ -1,17 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AudioParam version="1.0">
-  <ParamTree>
-    <Param path="Common" param_id="0"/>
-    <Param path="MT6989" param_id="1"/>
-  </ParamTree>
-  <ParamUnitPool>
-    <ParamUnit param_id="0">
-      <Param name="hwgain_enable" value="0"/>
-      <Param name="dl_hwgain" value="3"/>
-    </ParamUnit>
-    <ParamUnit param_id="1">
-      <Param name="hwgain_enable" value="1"/>
-      <Param name="dl_hwgain" value="3"/>
-    </ParamUnit>
-  </ParamUnitPool>
-</AudioParam>
+version https://git-lfs.github.com/spec/v1
+oid sha256:922c187a701a12e96adce5531877aaa31ee394e0b4804911b7fa2c0f2b3549e1
+size 494

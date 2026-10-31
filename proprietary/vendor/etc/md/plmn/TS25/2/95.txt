@@ -1,3 +1,3 @@
-29501,SwisscomFL,Swiss FL
-29502,Salt.li,Salt.li
-29505,FL1,FL1
+version https://git-lfs.github.com/spec/v1
+oid sha256:153ca60ed5c2d96dde826589b641a45287d4039ca5d6036642c835953df4a3d2
+size 65

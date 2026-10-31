@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AudioParam version="1.0">
-  <ParamTree>
-    <Param path="" param_id="0"/>
-  </ParamTree>
-  <ParamUnitPool>
-    <ParamUnit param_id="0">
-      <Param name="voip_common_para" value="0x0,0xDABD,0x7918,0x2A00,0x8001,0x0,0x0,0x0,0x0,0x0,0x0,0x0"/>
-    </ParamUnit>
-  </ParamUnitPool>
-</AudioParam>
+version https://git-lfs.github.com/spec/v1
+oid sha256:033e0aaddc4bb39e45d9d23c157150294e2e483d0f04f6346f14caa4a94fb4fb
+size 333

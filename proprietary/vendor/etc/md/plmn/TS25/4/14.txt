@@ -1,4 +1,3 @@
-41401,MM 900,MPTGSM
-41406,Telenor,TNM
-41405,Ooredoo,Ooredoo
-41409,MYTEL,MYTEL
+version https://git-lfs.github.com/spec/v1
+oid sha256:df100be4ee30a2d8d8b9bd50785a6ae28d055672341903dc543a677824e2ab77
+size 82

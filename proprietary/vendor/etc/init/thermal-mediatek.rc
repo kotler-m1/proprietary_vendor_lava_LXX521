@@ -1,5 +1,3 @@
-service vendor.thermal-mediatek /vendor/bin/hw/android.hardware.thermal-service.mediatek
-    socket thermal_hal_socket stream 660 root system
-    class hal
-    user system
-    group system
+version https://git-lfs.github.com/spec/v1
+oid sha256:3eb15196d345ad6c3a28908d4b63b81c91e2316c751f9255c698f7d2fd1c66b0
+size 189

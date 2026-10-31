@@ -1,2 +1,3 @@
-on early-init && property:ro.product.cpu.abilist64=*
-    exec_start boringssl_self_test64_vendor
+version https://git-lfs.github.com/spec/v1
+oid sha256:be7ccd57fe6196abc6c0b9fe380f14ecab14016a062005ef3766348929b020ef
+size 97

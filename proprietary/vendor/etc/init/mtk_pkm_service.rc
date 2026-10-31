@@ -1,14 +1,3 @@
-# MTK platform .rc configure
-
-service mtk_pkm_service /vendor/bin/mtk_pkm_service
-    class core
-    user system
-    group system inet net_admin net_raw
-    capabilities NET_ADMIN NET_RAW
-    disabled
-
-on property:vendor.diagnostic.packetmonitor=0
-    stop mtk_pkm_service
-
-on property:vendor.diagnostic.packetmonitor=1
-    start mtk_pkm_service
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5dbcf61c6714f6d5907502087e631ccd0b99809a57a338e696955e87281d02f
+size 360

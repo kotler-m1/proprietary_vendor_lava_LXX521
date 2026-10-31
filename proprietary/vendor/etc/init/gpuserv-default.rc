@@ -1,11 +1,3 @@
-service vendor.gpuserv-default /vendor/bin/hw/vendor.mediatek.hardware.gpuserv-service
-    disabled
-    class hal
-    user system
-    group system
-
-on boot && property:ro.vendor.mtk.gpu.service=1
-    start vendor.gpuserv-default
-
-on boot && property:ro.vendor.mtk.gpu.service=1 && property:ro.vendor.mtk.gpu.service.lazy=1
-    stop vendor.gpuserv-default
+version https://git-lfs.github.com/spec/v1
+oid sha256:488b737df1d0680e66382f9c4b22533218b4ec911e737acaeb8e759526a132d4
+size 366

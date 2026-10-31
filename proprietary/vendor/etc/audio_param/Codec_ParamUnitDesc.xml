@@ -1,13 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamUnitDesc version="1.0">
-	<CategoryTypeList>
-		<CategoryType name="Codec">
-			<Category name="Common"/>
-			<Category name="MT6989"/>
-		</CategoryType>
-	</CategoryTypeList>
-	<ParamUnit>
-		<Param name="hwgain_enable" type="int"/>
-		<Param name="dl_hwgain" type="int"/>
-	</ParamUnit>
-</ParamUnitDesc>
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c7e1ef35d120ae1d41b71428edc76721b2c9165db263ee5bb6a9f006154c23c
+size 342

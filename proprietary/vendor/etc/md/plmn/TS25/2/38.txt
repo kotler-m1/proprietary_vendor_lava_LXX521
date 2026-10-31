@@ -1,5 +1,3 @@
-23806,3 DK,3 DK
-23866,Telia-Telenor DK,TT DK
-23820,Telia DK,Telia
-23801,TDC,TDC
-23802,Telenor DK,TelenoDK
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4f0fad7be0676db8140e4867534b8080f76a51c37fa7a23928551c276e9840b
+size 111

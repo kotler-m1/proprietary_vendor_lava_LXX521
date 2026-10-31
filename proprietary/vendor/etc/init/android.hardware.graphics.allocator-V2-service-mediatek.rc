@@ -1,8 +1,3 @@
-service vendor.gralloc-v2 /vendor/bin/hw/android.hardware.graphics.allocator-V2-service-mediatek
-    class hal animation
-    user system
-    group graphics drmrpc
-    capabilities SYS_NICE
-    onrestart restart surfaceflinger
-    onrestart restart vendor.hwcomposer-3-2
-    onrestart restart camerahalserver
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4ff22caa5ab1f714a2815b1afcebf443bbefdd20ce79c56451abb6bcdbcfd7e
+size 308

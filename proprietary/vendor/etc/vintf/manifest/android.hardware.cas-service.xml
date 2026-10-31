@@ -1,6 +1,3 @@
-<manifest version="1.0" type="device">
-    <hal format="aidl">
-        <name>android.hardware.cas</name>
-        <fqname>IMediaCasService/default</fqname>
-    </hal>
-</manifest>
+version https://git-lfs.github.com/spec/v1
+oid sha256:69e1b653c59503bfea561c25ffbbbf51a2b50931221b262d44b9d720de226bc9
+size 178

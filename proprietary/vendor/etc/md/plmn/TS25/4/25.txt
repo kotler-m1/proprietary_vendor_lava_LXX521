@@ -1,7 +1,3 @@
-42528,Hot Mobile Ltd.,Israel
-42507,Hot Mobile Ltd.,HOT IL
-42503,IL Pelephone,PCL
-42502,Cellcom IL,Cellcom
-42501,Partner IL,Partner
-42506,Ooredoo Palestine,Ooredoo
-42505,JAWWAL-PALESTINE,JAWWAL
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b33c85c379af3d5af5e3072dffd32ba65a384b47478f44bf07ec459b3cbb9bd
+size 200

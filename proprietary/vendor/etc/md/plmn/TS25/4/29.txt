@@ -1,2 +1,3 @@
-42902,Ncell,Ncell
-42901,Nepal Telecom,NT
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7cccaea6842350317a45b81a58643c776efb6cd44a9f9957fbea160b9cc378b
+size 43

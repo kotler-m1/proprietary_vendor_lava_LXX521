@@ -1,3 +1,3 @@
-22005,A1 SRB,A1 SRB
-22003,mt:s,MTS
-22001,SRB Yettel,Yettel
+version https://git-lfs.github.com/spec/v1
+oid sha256:faf0ef5d6055b433d9e7f26d91ae5ccf522c5ddca66101acc203c3e512c059c1
+size 62

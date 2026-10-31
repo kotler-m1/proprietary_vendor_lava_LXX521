@@ -1,9 +1,3 @@
-46601,Far EasTone,FET
-46688,KGT-Online,KGT
-46692,Chunghwa Telecom,Chunghwa
-46699,TWM TransAsi,TWM TAT
-46697,TW Mobile,TWM
-46693,TWN MOBITAI,TW MOB
-46689,T Star,T Star
-46605,TWN APT,APT
-46612,TWN APT,APT
+version https://git-lfs.github.com/spec/v1
+oid sha256:20913b66c1bedfd14c84e7f0f00980e80d3cd0eb65c6cd8934f108b39c76ee47
+size 212

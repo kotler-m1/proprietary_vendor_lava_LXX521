@@ -1,12 +1,3 @@
-service touch_boost /vendor/bin/touch_boost
-    class main
-    user system
-    group system readproc wifi media media_rw camera audio
-
-on boot
-    start touch_boost
-
-on post-fs-data
-
-    chown system system /proc/perfmgr_touch_boost
-    chown system system /proc/perfmgr_touch_boost/ioctl_touch_boost
+version https://git-lfs.github.com/spec/v1
+oid sha256:2348d13e69f79467e11fa6e369e9b7cd8c6c62e8799caf08ba992e6e7a198905
+size 313

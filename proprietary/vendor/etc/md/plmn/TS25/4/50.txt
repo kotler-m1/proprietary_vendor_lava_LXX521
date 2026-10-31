@@ -1,4 +1,3 @@
-45006,KOR LG Uplus,LG U+
-45010,KOR LG Uplus,LG U+
-45005,KOR SK Telecom,SKT
-45008,KT,KT
+version https://git-lfs.github.com/spec/v1
+oid sha256:9374dbd33cd190dab662992306b9a47f1d98044b445ba2b32578da60e66df031
+size 91

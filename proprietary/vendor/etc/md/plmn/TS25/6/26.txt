@@ -1,2 +1,3 @@
-62601,STP CSTmovel,CSTmovel
-62602,Unitel STP,Unitel
+version https://git-lfs.github.com/spec/v1
+oid sha256:539acca45fcc9d5bb92b33a9f9e674dc653aefb69b413607cec1036698879010
+size 54

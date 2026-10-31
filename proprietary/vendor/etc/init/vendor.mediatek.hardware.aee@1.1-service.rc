@@ -1,10 +1,3 @@
-service aee.log-1-1 /vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service
-    interface vendor.mediatek.hardware.aee@1.1::IAee AEE
-    interface vendor.mediatek.hardware.aee@1.1::IAee default
-    interface vendor.mediatek.hardware.aee@1.0::IAee AEE
-    interface vendor.mediatek.hardware.aee@1.0::IAee default
-    class hal
-    oneshot
-    disabled
-    user root
-    group root debuggerd
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5f238b48f04eafa2dd23cd068d9d8b2320e2cb0eb32d97003d853bc4e31e091
+size 390

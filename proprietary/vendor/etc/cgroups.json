@@ -1,12 +1,3 @@
-{
-  "Cgroups": [
-    {
-      "Controller": "memory",
-      "Path": "/dev/memcg",
-      "Mode": "0700",
-      "UID": "root",
-      "GID": "system",
-      "Optional": true
-    }
-  ],
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a740a9e7586dc352958e6eb7ce9b09ccad2afcd13d7929aa07b6225463a29ac5
+size 182

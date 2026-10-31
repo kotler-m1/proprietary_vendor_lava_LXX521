@@ -1,12 +1,3 @@
-service wpa_supplicant /vendor/bin/hw/wpa_supplicant \
-	-O/data/vendor/wifi/wpa/sockets -dd \
-	-g@android:wpa_wlan0
-	#   we will start as root and wpa_supplicant will switch to user wifi
-	#   after setting up the capabilities required for WEXT
-	#   user wifi
-	#   group wifi inet keystore
-	interface aidl android.hardware.wifi.supplicant.ISupplicant/default
-	class main
-	socket wpa_wlan0 dgram 660 wifi wifi
-	disabled
-	oneshot
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6f42378e73cf5a312e915b5f7d3a7002a668a56f011be00f903d77fe9d1f31a
+size 427

@@ -1,8 +1,3 @@
-on post-fs-data
-    mkdir /data/vendor/disp_pq 0777 system system
-service vender.mediatek.hardware.pq_aidl-default /vendor/bin/hw/vendor.mediatek.hardware.pq_aidl-service
-    interface aidl vendor.mediatek.hardware.pq_aidl-service
-    class main
-    user system
-    group system graphics
-    capabilities SYS_NICE
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd0b263917a1cfd3a2f6997d33d5c82ad52d8d547ea6c19b71bf93eef7ea0f46
+size 314

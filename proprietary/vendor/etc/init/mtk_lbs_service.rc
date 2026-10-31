@@ -1,4 +1,3 @@
-service mtk_lbs_service /vendor/bin/mtk_lbs_service
-    class hal
-    user system
-    group system gps radio inet
+version https://git-lfs.github.com/spec/v1
+oid sha256:9313dad3ff5588a93f474dd999bd04920a326318df8d680fe3deb9dba5abd628
+size 118

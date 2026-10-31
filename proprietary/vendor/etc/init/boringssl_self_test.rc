@@ -1,14 +1,3 @@
-# Run boringssl self test for each ABI so that later processes can skip it. http://b/139348610
-import /vendor/etc/boringssl_self_test.${ro.zygote}.rc
-
-service boringssl_self_test32_vendor /vendor/bin/boringssl_self_test32
-    setenv BORINGSSL_SELF_TEST_CREATE_FLAG true # Any nonempty value counts as true
-    reboot_on_failure reboot,boringssl-self-check-failed
-    stdio_to_kmsg
-    user root
-
-service boringssl_self_test64_vendor /vendor/bin/boringssl_self_test64
-    setenv BORINGSSL_SELF_TEST_CREATE_FLAG true # Any nonempty value counts as true
-    reboot_on_failure reboot,boringssl-self-check-failed
-    stdio_to_kmsg
-    user root
+version https://git-lfs.github.com/spec/v1
+oid sha256:a30ca035b49329cd72994ca3a75125990bca7fcfa9ef00c39632cc200d7caa48
+size 640

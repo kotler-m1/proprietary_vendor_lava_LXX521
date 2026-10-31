@@ -1,6 +1,3 @@
-libOpenCL.so
-libnir_neon_driver_ndk.mtk.vndk.so
-libcmdl_ndk.mtk.vndk.so
-libarmnn_ndk.mtk.vndk.so
-libneuron_runtime.7.so
-libneuron_runtime.so
+version https://git-lfs.github.com/spec/v1
+oid sha256:e3b0effe9c795174c7fe8d8dc265f020e9eca5919967683f5096ec852d55ce17
+size 141

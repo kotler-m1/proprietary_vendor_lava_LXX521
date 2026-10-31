@@ -1,2 +1,3 @@
-61105,GINCL,Cellcom
-61101,Orange GN,ORANGEGN
+version https://git-lfs.github.com/spec/v1
+oid sha256:557fb56bbd856e11b1ddd64eb653f36227ed124a94aa5c70f0fec79cc37477d1
+size 47

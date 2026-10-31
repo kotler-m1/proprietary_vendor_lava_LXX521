@@ -1,7 +1,3 @@
-service audio_parameter_parser_service /system_ext/bin/hw/android.hardware.audio.parameter_parser.service
-    class core
-    user audioserver
-    group media
-    rlimit rtprio 10 10
-    ioprio rt 4
-    task_profiles ProcessCapacityHigh HighPerformance
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e0ad70fee0ca7e92f9abec84557a92d4502824708a53f837dcc5c8467bdebf0
+size 252

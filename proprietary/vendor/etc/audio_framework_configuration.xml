@@ -1,10 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<WHITELIST version="COMMON_1.0">
-    <scenario scenarioName="Ultra_latency">
-        <package packageName="com.xxx.xxx.aaa"/>
-        <package packageName="com.xxx.bbb"/>
-    </scenario>
-    <scenario scenarioName="RecordScreenOff_Irq">
-        <package packageName="com.duowan.mobile"/>
-    </scenario>
-</WHITELIST>
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf99b9c73b362102490d521fd6005033f96733e10612501dc288b6c5fe5b03f1
+size 364

@@ -1,2 +1,3 @@
-62910,COG MTN,MTN-CG
-62901,Airtel,Airtel
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5624913d01cd9121fac1383d27801b971527b41f71ff6df183215e5e4c0ae02
+size 43

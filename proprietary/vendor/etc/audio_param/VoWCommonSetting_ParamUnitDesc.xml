@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamUnitDesc tab_name="VoWCommonSetting" version="1.0">
-	<CategoryTypeList>
-		<CategoryType name="VoWCommonSetting">
-			<Category name="common"/>
-		</CategoryType>
-	</CategoryTypeList>
-	<ParamUnit>
-		<Param name="speaker_number" type="int"/>
-	</ParamUnit>
-</ParamUnitDesc>
+version https://git-lfs.github.com/spec/v1
+oid sha256:63c2f9688d8799a30224fe19ac3ebd99750cf62edb89b02b8165085f90ba3bc3
+size 314

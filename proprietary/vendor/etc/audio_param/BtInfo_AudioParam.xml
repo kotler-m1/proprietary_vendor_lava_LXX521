@@ -1,17 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AudioParam version="1.0">
-  <ParamTree>
-    <Param path="" param_id="0"/>
-    <Param path="HM1200" param_id="1"/>
-  </ParamTree>
-  <ParamUnitPool>
-    <ParamUnit param_id="0">
-      <Param name="voip_ap_delay_ms" value="200"/>
-      <Param name="voice_cp_delay_ms" value="200"/>
-    </ParamUnit>
-    <ParamUnit param_id="1">
-      <Param name="voip_ap_delay_ms" value="200"/>
-      <Param name="voice_cp_delay_ms" value="200"/>
-    </ParamUnit>
-  </ParamUnitPool>
-</AudioParam>
+version https://git-lfs.github.com/spec/v1
+oid sha256:167650462df0313a25d084ae50c1e9905455ba5778467e45ab29b6bf4d3a1417
+size 518

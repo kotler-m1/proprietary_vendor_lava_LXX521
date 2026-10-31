@@ -1,16 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<mtk_agps_profiles maj_ver="1" min_ver="2">
-  <!-- Refer to agps_profiles_conf2.xml for values not provided in this file -->
-
-  <cur_supl_profile name="Test_SIM2"
-      addr=""
-      port="7275"
-      tls="true"
-  />
-
-  <up_setting
-    imsi_enable="true"
-    cert_from_sdcard="true"
-  />
-
-</mtk_agps_profiles>
+version https://git-lfs.github.com/spec/v1
+oid sha256:07850c91bab4c348da70ec67b8ce9d5e4505b5ac32e889ecfb5cc2737257e29b
+size 366

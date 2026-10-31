@@ -1,4 +1,3 @@
-43605,ZET-MOBILE,Z-MOBILE
-43601,TCELL,TCELL
-43602,TCELL,TCELL
-43604,Babilon-M,Babilon
+version https://git-lfs.github.com/spec/v1
+oid sha256:69088bfbc64975fdddec3e4c72120243394f2d73f224f2e50d9a2ff8bb26578d
+size 90

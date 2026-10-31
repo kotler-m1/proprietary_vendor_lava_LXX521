@@ -1,4 +1,3 @@
-63907,Telkom,Telkom
-63903,Airtel,Airtel
-63902,Safaricom,SAF-COM
-63910,FAIBA,FAIBA
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0bd35f343c5af4ca3fed7b9f808d4cde8da78a3d5d3ce495f9af254733de78a
+size 86

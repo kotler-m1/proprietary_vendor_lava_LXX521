@@ -1,2 +1,3 @@
-63401,Zain SDN,Zain SD
-63402,MTN,MTN
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc0a898811896654ebbfc306e65cec7d6fcff078628f5e28ea3bcd3842b3fe11
+size 39

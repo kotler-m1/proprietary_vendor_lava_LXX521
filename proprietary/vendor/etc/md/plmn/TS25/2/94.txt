@@ -1,2 +1,3 @@
-29403,A1 MK,A1 MK
-29401,Telekom MK,MKT MK
+version https://git-lfs.github.com/spec/v1
+oid sha256:5cecdc1eb94c7186b4d6f4e055bee5d2c5186af4f4aa7aab0e44ff400d8bf3c0
+size 44

@@ -1,5 +1,3 @@
-47007,Airtel,Airtel
-47004,BGD bMobile,bMobile
-47003,Banglalink,BL
-47002,robi axiata,robi
-470001,Grameenphone,Grameen
+version https://git-lfs.github.com/spec/v1
+oid sha256:d13ea25bb7a03e11ffda9941a636a6bdfedb9004207bd213168d2cca4248c402
+size 122

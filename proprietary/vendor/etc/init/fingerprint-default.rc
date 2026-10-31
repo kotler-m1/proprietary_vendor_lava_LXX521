@@ -1,11 +1,3 @@
-service vendor.fingerprint-default /vendor/bin/hw/android.hardware.biometrics.fingerprint-service
-    class hal
-    user system
-    group system input
-    interface aidl android.hardware.biometrics.fingerprint.IFingerprint/default
-    oneshot
-    disabled
-
-on post-fs-data
-    mkdir /data/vendor/fingerprint/ 0771 system system
-    mkdir /mnt/vendor/persist/fingerprint 0771 system system
+version https://git-lfs.github.com/spec/v1
+oid sha256:2924c925b0257b475d721270da00b062c9591836d5570b96583fc8d847503128
+size 389

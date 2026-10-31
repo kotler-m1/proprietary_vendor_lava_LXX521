@@ -1,4 +1,3 @@
-26203,o2 - de,o2 - de
-26207,o2 - de,o2 - de
-26202,vodafone.de,Vodafone
-26201,Telekom.de,TDG
+version https://git-lfs.github.com/spec/v1
+oid sha256:a46b3be53d963bd2f62d29af2d793ab1d31a0cad591a12b139245210e3cd631a
+size 96

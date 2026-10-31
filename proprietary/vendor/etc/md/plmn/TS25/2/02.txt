@@ -1,4 +1,3 @@
-20209,WIND GR,WIND
-20210,WIND GR,WIND
-20205,vodafone GR,voda GR
-20201,GR COSMOTE,C-OTE
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d66c44f33b5837db5a94228a208f89557ed918a955b7b0fc13249857868d0e6
+size 91

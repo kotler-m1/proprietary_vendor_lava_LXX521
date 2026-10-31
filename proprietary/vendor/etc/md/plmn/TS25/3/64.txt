@@ -1,2 +1,3 @@
-36439,BTC,BTC
-36449,aliv,aliv
+version https://git-lfs.github.com/spec/v1
+oid sha256:08baa6da28c2512ae0fb6be0985d72d13d24002a31d295cef271854eb6546741
+size 32

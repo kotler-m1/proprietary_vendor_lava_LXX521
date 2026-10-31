@@ -1,3 +1,3 @@
-61905,Africell,Africell
-61901,Orange SL,OrangeSL
-61907,QCell,QC
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c955cfe035d5c795cbd3d87a51cd808c94c1994a50ae45ce4518f9a17806133
+size 67

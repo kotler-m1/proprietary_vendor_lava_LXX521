@@ -1,9 +1,3 @@
-23403,Airtel-Vodafone,ATL-VOD
-23415,vodafone UK,voda UK
-23458,Manx Telecom,MANX
-23450,JT,JT
-23455,Sure,Sure
-23410,O2 - UK,O2 - UK
-23430,EE,EE
-23433,EE,EE
-23420,3 UK,3 UK
+version https://git-lfs.github.com/spec/v1
+oid sha256:5717e5817cd2f624e534d620bfb58cadc5dfbf49a07a3fb1e5f7b0895bf51e92
+size 179

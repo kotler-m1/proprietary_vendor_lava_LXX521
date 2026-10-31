@@ -1,3 +1,3 @@
-24803,Tele2 EE,Tele2 EE
-24802,Elisa EE,ELISA
-24801,Telia,Telia
+version https://git-lfs.github.com/spec/v1
+oid sha256:0aa1fe67f1c1668a8df3a993f175c3937cc5425a270fb281bca2a04b38537dc1
+size 66

@@ -1,3 +1,3 @@
-54720,F-VINI,VINI
-54715,VODAFONE PF,VODAFONE
-54705,VITI,VITI
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8d8ee2217f1805355f60ca48cdfe78af26d89c807d35579cbae6dd6dfe731d3
+size 64

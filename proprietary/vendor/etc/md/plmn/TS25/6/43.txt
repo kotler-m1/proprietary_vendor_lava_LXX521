@@ -1,2 +1,3 @@
-64304,VodaCom-MZ,VodaCom
-64301,MOZ - mCel,mCel
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea614442eb9ae4f52c70488ec896650a5482be0af5f023abb95bf64d7110c566
+size 49

@@ -1,6 +1,3 @@
-<manifest version="1.0" type="device">
-	<hal format="aidl">
-		<name>android.hardware.wifi</name>
-		<fqname>IWifi/default</fqname>
-	</hal>
-</manifest>
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a6a25edeed206796800a3d20aed8c7569c79807517889ba2159016a8a492848
+size 150

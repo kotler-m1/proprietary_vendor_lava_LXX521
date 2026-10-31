@@ -1,3 +1,3 @@
-74000,Movistar,Movistar
-74001,CLARO,CLARO
-74002,CNT,CNT
+version https://git-lfs.github.com/spec/v1
+oid sha256:725c5a439b7976409ac44cf5369dbbeb520a5864d29da8c29603caf3b9acc7a0
+size 59

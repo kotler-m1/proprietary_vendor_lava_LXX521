@@ -1,4 +1,3 @@
-62002,GH Vodafone,Vodafone
-62001,GH MTN,MTN
-62003,AirtelTigo,ATL-TIGO
-62006,AirtelTigo,ATL-TIGO
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4b7f6283eea8f089c66bc5183b0689ce5b22a50538114a63691933b7d08c0d9
+size 100

@@ -1,4 +1,3 @@
-28020,PrimeTel PLC,PrimeTel
-28010,epic,epic
-28001,Cyta-Voda,CytaVoda
-28022,Cablenet,Cablenet
+version https://git-lfs.github.com/spec/v1
+oid sha256:18a4b1320e7c30c216461f405405e7c1cf4b5f774485f222f25bd7908f6a5381
+size 97

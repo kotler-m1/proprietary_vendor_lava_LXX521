@@ -1,2 +1,3 @@
-42101,SabaFon,SABAFON
-42102,MTN,MTN
+version https://git-lfs.github.com/spec/v1
+oid sha256:11478d99e0387fea54b3c000475ff7cd296e15d0544d7d030f8239463238df4e
+size 38

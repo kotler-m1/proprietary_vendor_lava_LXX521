@@ -1,8 +1,3 @@
-# FPSGO
-service fpsgo /vendor/bin/fpsgo
-    class main
-    user system
-    group system readproc wifi media media_rw camera audio
-
-on boot
-    start fpsgo
+version https://git-lfs.github.com/spec/v1
+oid sha256:02a6cf5cd707680322270089c265385d7c8ef4ab09961b781794af38584c4689
+size 155

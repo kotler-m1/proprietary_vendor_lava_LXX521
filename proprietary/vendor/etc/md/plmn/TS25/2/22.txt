@@ -1,4 +1,3 @@
-22288,WINDTRE,WINDTRE
-22201,I TIM,TIM
-22210,vodafone IT,voda IT
-22250,ILIAD,ILIAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd4cd1bfef3e9e293132eb8f71c26f44457fad2853c7d56cd81ab8e84c6e7482
+size 86

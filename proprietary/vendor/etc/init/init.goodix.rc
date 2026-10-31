@@ -1,5 +1,3 @@
-on boot
-#add for goodix fingerprint
-    wait /dev/goodix_fp
-    chmod 666 /dev/goodix_fp
-    chown system system /dev/goodix_fp
+version https://git-lfs.github.com/spec/v1
+oid sha256:2aa59b4cafddd17bd7ac332e6219d17de6fa022753c8d66bd2736ffad27fcb69
+size 128

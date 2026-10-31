@@ -1,6 +1,3 @@
-65505,TelkomSA-R,Telkom-R
-65502,TelkomSA,Telkom
-65507,Cell C,Cell C
-65501,VodaCom-SA,Vodacom
-65510,MTN-SA,MTN
-65538,rain,rain
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd667309b00b6a53475749e300746bdace315173ff71095fe886fa8c4e52c540
+size 132

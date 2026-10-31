@@ -1,18 +1,3 @@
-service atcid-daemon-u /vendor/bin/atcid
-    interface aidl vendor.mediatek.hardware.atci.IAtcid/default
-    class hal
-    class main
-    socket adb_atci_socket stream 660 radio system
-    user system
-    group radio system media bluetooth wifi
-    disabled
-    oneshot
-
-on property:persist.vendor.service.atci.autostart=1
-start atcid-daemon-u
-
-on property:persist.vendor.service.atci.atm_mode=1
-start atcid-daemon-u
-
-on property:sys.boot_completed=1
-setprop vendor.mtk.atci.boot_completed 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:a99734e4ee806e12ced0b1b272f8805b2b02814cc93315d5b2b08a719855b9a1
+size 492

@@ -1,2 +1,3 @@
-53988,Digicel Tonga,Digicel
-53901,U-CALL,U-CALL
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9d561c098e218184164f8993f46c643edc8f546324476ffa9b5dbf97fb901d1
+size 50

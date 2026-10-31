@@ -1,7 +1,3 @@
-service tetheroffloadservice /vendor/bin/hw/tetheroffloadservice
-    interface aidl android.hardware.tetheroffload.IOffload/default
-    class hal
-    user system
-    group net_admin net_raw system misc
-    oneshot
-    disabled
+version https://git-lfs.github.com/spec/v1
+oid sha256:68d748abb45bad2bde071ebf326bedbeabf4b2ab18b378aed68105315989757b
+size 227

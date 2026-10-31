@@ -1,2 +1,3 @@
-54001,Our Telekom,Telekom
-54002,bmobile,bmobile
+version https://git-lfs.github.com/spec/v1
+oid sha256:195d9a36216458f1b9baffa650a80a527bdb88a3e183b9fbe99194337c9f86a5
+size 50

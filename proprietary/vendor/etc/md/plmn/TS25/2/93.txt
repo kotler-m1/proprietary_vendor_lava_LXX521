@@ -1,4 +1,3 @@
-29364,T-2,T-2
-29370,TELEMACH,TELEMACH
-29340,A1 SI,A1 SI
-29341,MOBITEL,MOBITEL
+version https://git-lfs.github.com/spec/v1
+oid sha256:76b5f5ec8ef17544cc59c7ad08b52dec31f944cddd3ea378af7d2164a3dff5ef
+size 82

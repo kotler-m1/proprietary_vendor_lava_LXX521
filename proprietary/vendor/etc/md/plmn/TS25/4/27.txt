@@ -1,2 +1,3 @@
-42702,vodafone,VF-QA
-42701,Ooredoo,Ooredoo
+version https://git-lfs.github.com/spec/v1
+oid sha256:6372db27737e87fcfc2c44d4a06b11c201bb82ee191e28a9cb51250fa54da220
+size 45

@@ -1,3 +1,3 @@
-64503,ZAMTEL,ZAMTEL
-64502,MTN ZM,MTN ZM
-64501,Airtel,Airtel
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f48239015fa496185d53ffd1c023d8ddd55bb3274136ecbf6e439d3a024b12f
+size 63

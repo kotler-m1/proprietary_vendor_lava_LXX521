@@ -1,25 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-    <PQ_Flags>
-        <Platform PlatformID="mt6893" IRValue="0" DLValue="0">
-        </Platform>
-        <Platform PlatformID="mt6853" IRValue="0" DLValue="0">
-        </Platform>
-        <Platform PlatformID="mt6983" IRValue="0" DLValue="0">
-        </Platform>
-        <Platform PlatformID="mt6895" IRValue="0" DLValue="0">
-        </Platform>
-        <Platform PlatformID="mt6886" IRValue="0" DLValue="0">
-        </Platform>
-        <Platform PlatformID="mt6879" IRValue="0" DLValue="0">
-        </Platform>
-        <Platform PlatformID="mt6855" IRValue="0" DLValue="0">
-        </Platform>
-        <Platform PlatformID="mt6985" IRValue="0" DLValue="0">
-        </Platform>
-        <Platform PlatformID="mt6897" IRValue="0" DLValue="0">
-        </Platform>
-        <Platform PlatformID="mt6989" IRValue="0" DLValue="0">
-        </Platform>
-    </PQ_Flags>
-</root>
+version https://git-lfs.github.com/spec/v1
+oid sha256:569f5f4e02c085e071e5f011fc0c24fcd8c2cf7bd407991575978bf8fcceadd7
+size 915

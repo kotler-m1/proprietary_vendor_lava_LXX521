@@ -1,7 +1,3 @@
-45500,SmarTone MAC,SMC MAC
-45505,3 Macau,3 Macau
-45503,3 Macau,3 Macau
-45504,CTM,CTM
-45501,CTM,CTM
-45502,CT Macau,CT Macau
-45507,CT Macau,CT Macau
+version https://git-lfs.github.com/spec/v1
+oid sha256:51ca900e592138e9f60dc763b6948010eae4b7d9fe7cb3a37620ece54103f668
+size 154

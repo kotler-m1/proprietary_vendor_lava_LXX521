@@ -1,7 +1,3 @@
-23205,3 AT,3 AT
-23210,3 AT,3 AT
-23201,A1,A1
-23213,Magenta-T-,MagentaT
-23203,Magenta-T-,MagentaT
-23207,telering,telering
-23217,spusu,spusu
+version https://git-lfs.github.com/spec/v1
+oid sha256:e809887e4c50f6042242743acf15f77921c653258cc3b12b2b77846c2c2b314b
+size 145

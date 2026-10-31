@@ -1,16 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AudioParam version="1.0">
-  <ParamTree>
-    <Param path="common" param_id="0"/>
-  </ParamTree>
-  <ParamUnitPool>
-    <ParamUnit param_id="0">
-      <Param name="main_mic" value="1"/>
-      <Param name="ref_mic" value="0"/>
-      <Param name="3rd_mic" value="0"/>
-      <Param name="scp_dmic" value="0"/>
-      <Param name="use_builtin_mic_in_headset_mode" value="0"/>
-      <Param name="dual_ch_transfer" value="0"/>
-    </ParamUnit>
-  </ParamUnitPool>
-</AudioParam>
+version https://git-lfs.github.com/spec/v1
+oid sha256:649aa20a4767db57d877338b9ffeb139e3aee99baaa6051359539ada1f46c3bd
+size 507

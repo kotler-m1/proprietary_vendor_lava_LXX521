@@ -1,16 +1,3 @@
-on boot
-    setprop persist.sys.cmdservice.enable disable
-    setprop persist.vendor.cmdservice.running stopped
-
-service cmd_services /vendor/bin/cmd_services
-    class main
-    user root
-    group system
-    disabled
-    oneshot
-
-on property:persist.sys.cmdservice.enable=enable
-    start cmd_services
-
-on property:persist.sys.cmdservice.enable=disable
-    stop cmd_services
+version https://git-lfs.github.com/spec/v1
+oid sha256:bae4d8f62f404a0345ca5f0026d7c977e257cb24face783338ee37b795ede09a
+size 376

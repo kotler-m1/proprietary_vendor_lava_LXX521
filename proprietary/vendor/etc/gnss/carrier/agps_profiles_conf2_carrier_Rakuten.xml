@@ -1,25 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<mtk_agps_profiles maj_ver="1" min_ver="2">
-  <!-- Refer to agps_profiles_conf2.xml for values not provided in this file.
-       cur_supl_profile is supported but other supl_profile are ignored.
-       auto_profile_enable is not supported.
-  -->
-
-  <cur_supl_profile name="Rakuten"
-      addr="supl.rm-n.jp"
-      port="7275"
-      tls="true"
-  />
-
-  <agps_setting
-    ignore_si_for_e911="true"
-    ignore_emergency_ext_secs_from_framework="true"
-    emergency_ext_secs="300"
-  />
-
-  <up_setting
-    imsi_enable="true"
-    operation_mode="2"
-  />
-
-</mtk_agps_profiles>
+version https://git-lfs.github.com/spec/v1
+oid sha256:11025ad3e1f49841778e5ce955ab43b889fef3cbe65c5e79626731452d72c238
+size 625

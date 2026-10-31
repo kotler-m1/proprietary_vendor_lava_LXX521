@@ -1,2 +1,3 @@
-#ZRAM
-/dev/block/zram0 none swap defaults zramsize=55%
+version https://git-lfs.github.com/spec/v1
+oid sha256:c467a7b3bc0c700b11d32e2f923635331960a5792dda4c0571770bb12049ebaf
+size 55

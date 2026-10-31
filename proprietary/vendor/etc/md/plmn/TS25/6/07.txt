@@ -1,2 +1,3 @@
-60702,AFRICELL,AFRICELL
-60704,Qcell,QC
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5bab3e1144974fd15d67512830b2059dcb0c694b03f87a129264bf14e7f8706
+size 41

@@ -1,6 +1,3 @@
-service vendor.mmlpq-default /vendor/bin/hw/vendor.mediatek.hardware.mmlpq@V1-service
-    class main
-    user system
-    group system graphics
-    capabilities SYS_NICE
-    shutdown critical
+version https://git-lfs.github.com/spec/v1
+oid sha256:752d3464491ed68ff8393822c60fa0bde67144480086bdd90860829c6ed625b4
+size 195

@@ -1,3 +1,3 @@
-61404,Orange,Orange
-61402,Airtel,Airtel
-61403,ETISALAT NER,ETISALAT
+version https://git-lfs.github.com/spec/v1
+oid sha256:0620326fe7e2d65bbe4d69b605c204a065665cb37f354808169a234c16a7ed01
+size 71

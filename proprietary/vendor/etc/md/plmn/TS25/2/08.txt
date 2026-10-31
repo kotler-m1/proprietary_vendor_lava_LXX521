@@ -1,10 +1,3 @@
-20815,Free,Free
-20816,Free,Free
-20813,F - Contact,Contact
-20811,SFR FEMTO,SFRFEMTO
-20809,F SFR,SFR
-20810,F SFR,SFR
-20802,F-Contact,Contact
-20801,Orange F,Orange
-20888,F - Contact,Contact
-20820,F-Bouygues Telecom,BYTEL
+version https://git-lfs.github.com/spec/v1
+oid sha256:86acdf17fbf5dde30da6d3eed0a7770d15dadd59eddaab7216ca0a40ecdd4a38
+size 228

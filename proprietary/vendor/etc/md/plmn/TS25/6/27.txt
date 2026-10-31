@@ -1,2 +1,3 @@
-62703,GNQ-Muni,Muni-GQ
-62701,GETESA,GETESA
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8a4cda057bb9d7038ffb0518e966c07fa50587b4328d021ccd43e9cd82d4cdb
+size 45

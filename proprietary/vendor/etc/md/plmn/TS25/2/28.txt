@@ -1,3 +1,3 @@
-22803,Salt,Salt
-22802,Sunrise,Sunrise
-22801,Swisscom,Swisscom
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3c48d3956d7384ad2caae4cf466da962aac25aa07cbcab9211336b860b79cac
+size 65

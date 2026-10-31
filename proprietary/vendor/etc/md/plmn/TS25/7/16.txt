@@ -1,4 +1,3 @@
-71615,Viettel Peru,VTP
-71617,Entel,Entel
-71610,CLARO PER,ClaroPER
-71606,Movistar,Movistar
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5891642a6c6e33ff7fa5ade39aa7da5ef15e8a28f9028afa239a080d4143f74
+size 94

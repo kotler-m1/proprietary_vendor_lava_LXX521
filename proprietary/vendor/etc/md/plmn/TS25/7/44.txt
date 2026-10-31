@@ -1,4 +1,3 @@
-74405,PY Personal,Personal
-74404,TIGO PY,TIGO
-74401,HOLA PARAGUAY S.A.,HPGYSA
-74402,CLARO PY,CLARO PY
+version https://git-lfs.github.com/spec/v1
+oid sha256:45941251c6e0933fa522b6e1916a392889acd6d9cb34cc956b58ab2618be09f5
+size 106

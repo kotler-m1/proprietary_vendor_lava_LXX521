@@ -1,12 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamUnitDesc tab_name="VoWCompatibilityCode" version="1.0">
-	<CategoryTypeList>
-		<CategoryType name="VoWCompatibilityCode">
-			<Category name="common"/>
-		</CategoryType>
-	</CategoryTypeList>
-	<ParamUnit>
-		<Param name="training" type="string"/>
-		<Param name="testing" type="string"/>
-	</ParamUnit>
-</ParamUnitDesc>
+version https://git-lfs.github.com/spec/v1
+oid sha256:adf13d8c57c347f14e66e9c97043a1b4b39b7a626c0b2f8285e4fdf495467320
+size 359

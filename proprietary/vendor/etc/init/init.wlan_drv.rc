@@ -1,4 +1,3 @@
-
-# start wlan assistant on boot
-on boot
-  start wlan_assistant
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad82b89673388e80ad402c93e70892592af68f7943b33d546803b4010bc1bf29
+size 63

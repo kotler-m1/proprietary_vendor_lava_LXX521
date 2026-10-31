@@ -1,5 +1,3 @@
-# TOUCH KO
-
-on init
-    exec_background u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d \
-        /vendor/lib/modules tui-common.ko gt9895.ko ft3518u.ko st61y.ko gt9916.ko nt36672c.ko gt9886.ko synaptics_tcm.ko gt9896s.ko goodix_ts_v1315.ko
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e0a2d866886efa1c180fcea24067e9b8435f3caa295cef0d61acec5c9140468
+size 246

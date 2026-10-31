@@ -1,4 +1,3 @@
-25905,Moldtelecom,Mtelecom
-25902,Moldcell,Moldcell
-25901,Orange MD,Orange
-25915,IDC,IDC
+version https://git-lfs.github.com/spec/v1
+oid sha256:a41dc656cc5569a84e47deb361b5618c1b39553610dbec275c581cf8047573cb
+size 92

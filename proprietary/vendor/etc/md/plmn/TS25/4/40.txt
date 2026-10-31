@@ -1,5 +1,3 @@
-44050,KDDI,KDDI
-44054,KDDI,KDDI
-44051,KDDI,KDDI
-44020,SoftBank,SoftBank
-44010,JP DOCOMO,DOCOMO
+version https://git-lfs.github.com/spec/v1
+oid sha256:1763c1ab0c57141bff9dc9cbbf8131608e8161d4470b084e836c07e11459e21d
+size 100

@@ -1,1 +1,3 @@
-55001,FSM Telecom,FSM Tele
+version https://git-lfs.github.com/spec/v1
+oid sha256:37a8baa32d4f58024b98343bfa694bdf3e99044da11ac7f699f6fd08f7320ac5
+size 28

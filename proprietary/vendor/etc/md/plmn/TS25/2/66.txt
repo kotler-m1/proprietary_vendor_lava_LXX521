@@ -1,2 +1,3 @@
-26601,GIBTEL,GIBTEL
-26603,GIBFIBRE,GIBFIBRE
+version https://git-lfs.github.com/spec/v1
+oid sha256:4edd016672ea83b351d9239a68b3060f7a57800c49ccf1d60323c338cc331284
+size 46

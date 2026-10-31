@@ -1,12 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AudioParam version="1.0">
-  <ParamTree>
-    <Param path="Common" param_id="0"/>
-  </ParamTree>
-  <ParamUnitPool>
-    <ParamUnit param_id="0">
-      <Param name="besloudness" value="2"/>
-      <Param name="hifi_audio" value="1"/>
-    </ParamUnit>
-  </ParamUnitPool>
-</AudioParam>
+version https://git-lfs.github.com/spec/v1
+oid sha256:a10076b8679b35076de033b8f69879db72e1b8bb4eabf1ceca6261622978f404
+size 319

@@ -1,7 +1,3 @@
-service vendor.hwcomposer-3-2 /vendor/bin/hw/android.hardware.graphics.composer@3.2-service
-    class hal animation
-    user system
-    group graphics drmrpc
-    capabilities SYS_NICE
-    onrestart restart surfaceflinger
-    task_profiles ServiceCapacityLow
+version https://git-lfs.github.com/spec/v1
+oid sha256:3eff61d1e8715d8e334e14c0be97edfc72af92350251db3b4025e30899ddd8b4
+size 258

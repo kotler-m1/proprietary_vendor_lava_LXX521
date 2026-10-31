@@ -1,4 +1,3 @@
-service nvram-aidl /vendor/bin/hw/vendor.mediatek.hardware.nvram-service
-    class hal
-    user root
-    group system bluetooth media audio radio
+version https://git-lfs.github.com/spec/v1
+oid sha256:9193fa8c0932fdcdd13a8e12f3c45a0d160ea6cfbae575800a133874b43f4873
+size 146

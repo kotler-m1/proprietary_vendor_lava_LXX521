@@ -1,2 +1,3 @@
-51402,TLS-TT,TT
-51401,TLS-TC,TCEL
+version https://git-lfs.github.com/spec/v1
+oid sha256:f691f3efa49831aae402f7d87129950365da89f9d345f057fc935090825ba8dc
+size 36

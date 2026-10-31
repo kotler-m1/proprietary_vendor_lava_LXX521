@@ -1,2 +1,3 @@
-64903,tnmobile,tnmobile
-64901,MTC NAMIBIA,MTCNAM
+version https://git-lfs.github.com/spec/v1
+oid sha256:27971d05df60863f6abbcacb6897168736dd749b12663553dacd7bd56482b8ce
+size 51

@@ -1,6 +1,3 @@
-<manifest version="1.0" type="device">
-    <hal format="aidl">
-        <name>android.hardware.boot</name>
-        <fqname>IBootControl/default</fqname>
-    </hal>
-</manifest>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca41da1135ce5128018d255b7c2589494e0f9691bdeaab8c5fdc46868c4399bc
+size 175

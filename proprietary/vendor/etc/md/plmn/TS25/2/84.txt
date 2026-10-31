@@ -1,3 +1,3 @@
-28403,Vivacom BG,Vivacom
-28405,Yettel BG,Yettel
-28401,A1 BG,A1 BG
+version https://git-lfs.github.com/spec/v1
+oid sha256:a68c81915b09399bd81faadb016e98f8c6243d7af0832840bd6e9c013b4a5d87
+size 69

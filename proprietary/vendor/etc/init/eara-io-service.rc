@@ -1,8 +1,3 @@
-on post-fs-data
-    mkdir /data/vendor/eara_io 0770 system system
-    chown system system /proc/blocktag/eara_io_boost
-
-service eara-io /vendor/bin/eara_io_service
-    class main
-    user system
-    group system
+version https://git-lfs.github.com/spec/v1
+oid sha256:525b61f2daca9f89996fa99b6a79a1efdaced7df8e7058b797ef651c12c5aa37
+size 212

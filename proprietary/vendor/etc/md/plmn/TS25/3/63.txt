@@ -1,2 +1,3 @@
-36302,AW Digicel,Digicel
-36301,SETAR,SETAR
+version https://git-lfs.github.com/spec/v1
+oid sha256:9517c75ef55fe863d158d130492e6bdaf80ad9d81319c71898fdffa0325562ee
+size 45

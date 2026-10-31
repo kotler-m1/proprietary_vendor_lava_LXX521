@@ -1,6 +1,3 @@
-73009,WOM,WOM
-73001,ENTEL PCS,ENTEL
-73010,ENTEL PCS,ENTEL
-73003,CLARO CHL,ClaroCHL
-73007,Movistar,Movistar
-73002,Movistar,Movistar
+version https://git-lfs.github.com/spec/v1
+oid sha256:e54cb4172ef0a4f25d05253d3fcc4ca32f9221736dc699a9a0a94397ba4ee119
+size 137

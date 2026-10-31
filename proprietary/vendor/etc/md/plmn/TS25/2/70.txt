@@ -1,5 +1,3 @@
-27005,LOL,LOL
-27099,L Orange-LU,Orange
-27077,L TANGO,TANGO
-27001,POST,POST
-27002,MTX Connect,MTXC
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fbddd95fd08be0a64b03e75c330da9df6c1e7cf113b6f8e7c87862435461dde
+size 103

@@ -1,2 +1,3 @@
-47202,Ooredoo Maldives PVT LTD,Ooredoo
-47201,DHIRAAGU,DHIRAAGU
+version https://git-lfs.github.com/spec/v1
+oid sha256:001df1ff7cc0c7bc7341f49c7002735c0873c7a700d3aeac8913bcd82c1b27d5
+size 65

@@ -1,10 +1,3 @@
-90115,OnAir,OnAir
-90114,AeroMobile,AeroMob
-90112,Telenor Maritime,TelenorM
-90146,Telecom26,T26
-90171,Tampnet,Tampnet
-90111,Inmarsat,INX
-90150,EchoStar Mobile,EML
-90126,TIM@sea,TIM@sea
-90144,AT&T,AT&T
-90145,AISatSea,AISatSea
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0bb3f39d8c75bc40de35c7cce1859610e58e037e878072ece17ebc3c433114d
+size 234

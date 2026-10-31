@@ -1,4 +1,3 @@
-313120,ASM ASTCA,ASTCA
-313790,Liberty Mobile,Liberty
-313070,MNSHub,MNSHub
-313380,OptimERA,OptimERA
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5d793916f52190442a9b6d1574f530bf3ba776641f4ca7ce5b6459c6786c0a4
+size 103

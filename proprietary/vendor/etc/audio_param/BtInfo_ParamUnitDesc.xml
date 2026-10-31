@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamUnitDesc tab_name="BT Info" version="1.0">
-	<CategoryTypeList>
-		<CategoryType name="BT headset">
-			<Category name="BT2"/>
-			<Category name="X-mini EVOLVE"/>
-			<Category name="HM1200"/>
-		</CategoryType>
-	</CategoryTypeList>
-	<ParamUnit>
-		<Param name="voip_ap_delay_ms" type="int"/>
-		<Param name="voice_cp_delay_ms" type="int"/>
-	</ParamUnit>
-</ParamUnitDesc>
+version https://git-lfs.github.com/spec/v1
+oid sha256:67bb1f55d2c18937d6bcc48114218c102156d58e3a2d05fb6e60357f7ecd5540
+size 410

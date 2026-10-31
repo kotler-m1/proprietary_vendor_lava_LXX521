@@ -1,13 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamUnitDesc tab_name="SpeechAcousticShock" version="1.0">
-	<CategoryTypeList>
-		<CategoryType name="SpeechAcousticShock">
-			<Category name="common"/>
-		</CategoryType>
-	</CategoryTypeList>
-	<ParamUnit>
-		<Param name="init_db" type="string"/>
-		<Param name="ramp_time" type="string"/>
-		<Param name="timeout" type="string"/>
-	</ParamUnit>
-</ParamUnitDesc>
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d6464951b450d4417a71925e47a853ec31c378c745ef9fa80f8709ad427440f
+size 398

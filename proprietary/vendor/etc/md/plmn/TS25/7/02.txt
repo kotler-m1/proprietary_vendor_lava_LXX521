@@ -1,2 +1,3 @@
-70267,BTL,BTL
-70269,Smart,Smart
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d468cafeaeddb31881c6523d09a859515d64588f6bfedefdfb63c3aaa000e6d
+size 34

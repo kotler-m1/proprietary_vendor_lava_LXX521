@@ -1,2 +1,3 @@
-74603,DIGICEL,DIGICEL
-74602,TELESUR,TELESUR
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a2abb89e5a3faea8a27832b59562d5f9c0e705255a30324fddaf6e92cd2c07c
+size 46

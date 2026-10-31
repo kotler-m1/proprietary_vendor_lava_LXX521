@@ -1,2 +1,3 @@
-73404,Movistar,Movistar
-73402,DIGITEL,DIGITEL
+version https://git-lfs.github.com/spec/v1
+oid sha256:f24f6604d000b5af21485c7362e5ccbd5c724bcb9c4be26fc8354509ed68e984
+size 48

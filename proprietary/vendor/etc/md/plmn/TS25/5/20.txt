@@ -1,8 +1,3 @@
-52000,TH 3G+,TH 3G+
-52015,NT Mobile,NT
-52047,NT Mobile,NT
-52001,AIS,AIS
-52003,AIS,AIS
-52004,TRUE-H,TRUE-H
-52099,TRUE-H,TRUE-H
-52005,dtac TriNet,dtac
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc4e856b1d395c4c41e04253ae82011250ca2e2b21de31da0482df2ed5aa69cb
+size 157

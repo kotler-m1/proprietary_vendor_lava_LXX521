@@ -1,14 +1,3 @@
-72423,VIVO,VIVO
-72410,VIVO,VIVO
-72406,VIVO,VIVO
-72411,VIVO,VIVO
-72433,Algar Telecom,Algar
-72434,Algar Telecom,Algar
-72432,Algar Telecom,Algar
-72405,Claro BRA,Claro
-72404,TIM BRA,TIM
-72402,TIM BRA,TIM
-72403,TIM BRA,TIM
-72424,Oi,Oi
-72416,Oi,Oi
-72431,Oi,Oi
+version https://git-lfs.github.com/spec/v1
+oid sha256:c20d7586a0af65fef3e09498f2fd3157a92f13e919eac17de47c6d865b14640e
+size 268

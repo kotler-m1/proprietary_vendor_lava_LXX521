@@ -1,6 +1,3 @@
-41305,SRI AIRTEL,Airtel
-41301,Mobitel LK,Mobitel
-41308,Hutch,Hutch
-41303,Hutch,Hutch
-41309,Hutch,Hutch
-41302,DIALOG,DIALOG
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe26c4b694ca30d950407a4bb30c07c55df9a8b37d6d42c9eea21a984c9d859a
+size 129

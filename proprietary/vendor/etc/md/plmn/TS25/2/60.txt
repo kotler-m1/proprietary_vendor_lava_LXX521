@@ -1,4 +1,3 @@
-26006,Play,Play
-26003,Orange PL,Orange
-26002,T-Mobile.pl,TM PL
-26001,Plus,PLUS
+version https://git-lfs.github.com/spec/v1
+oid sha256:f40e1c4b82212f182cd21f709a9fbc46ed8b00f8a2df57300453f25325f9a2eb
+size 83

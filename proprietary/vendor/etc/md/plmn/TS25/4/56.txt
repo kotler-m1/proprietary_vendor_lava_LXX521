@@ -1,5 +1,3 @@
-45608,Metfone,Metfone
-45602,Smart,Smart
-45606,Smart,Smart
-45605,Smart,Smart
-45601,Cellcard,Cellcard
+version https://git-lfs.github.com/spec/v1
+oid sha256:48823d3c53d8bf644dd4b16a85ee4e819ed5525ee07d615b7874c76e27d9a8ef
+size 105

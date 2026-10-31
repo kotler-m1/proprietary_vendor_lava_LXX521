@@ -1,4 +1,3 @@
-41840,KOREK,KOREK
-41820,zain IQ,zain IQ
-41830,IRAQNA,IRAQNA
-41805,ASIACELL,ASIACELL
+version https://git-lfs.github.com/spec/v1
+oid sha256:682639290eff9cf69ffdffa5c80abc62a2874c624cff280a928e2efeccc3d5d1
+size 88

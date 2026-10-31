@@ -1,3 +1,3 @@
-27603,ALBtelecom,ATmobile
-27602,Voda AL,Voda AL
-27601,One.al,One.al
+version https://git-lfs.github.com/spec/v1
+oid sha256:7cf0815178df493e81536f15497297e20040d5c983ef20ebca3a9bb3350cf6fa
+size 71
