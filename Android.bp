@@ -9,46 +9,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-    name: "graphicbuffersource-aidl-ndk",
-    owner: "lava",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/graphicbuffersource-aidl-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libnativewindow",
-                "android.hardware.graphics.common-V5-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/graphicbuffersource-aidl-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libnativewindow",
-                "android.hardware.graphics.common-V5-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmedia_codeclist",
     owner: "lava",
     strip: {
@@ -290,58 +250,6 @@ cc_prebuilt_library_shared {
                 "libstagefright_foundation",
                 "libsync",
                 "libui",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libstagefright_graphicbuffersource_aidl",
-    owner: "lava",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/system/lib/libstagefright_graphicbuffersource_aidl.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common-V5-ndk",
-                "graphicbuffersource-aidl-ndk",
-                "libbinder_ndk",
-                "libcutils",
-                "libgui",
-                "liblog",
-                "libnativewindow",
-                "libstagefright_bufferqueue_helper",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libstagefright_graphicbuffersource_aidl.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.common-V5-ndk",
-                "graphicbuffersource-aidl-ndk",
-                "libbinder_ndk",
-                "libcutils",
-                "libgui",
-                "liblog",
-                "libnativewindow",
-                "libstagefright_bufferqueue_helper",
                 "libutils",
                 "libc++",
                 "libc",
@@ -14873,6 +14781,47 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libpixelflinger",
+    owner: "lava",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libpixelflinger.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libpixelflinger.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libpkm",
     owner: "lava",
     strip: {
@@ -17512,12 +17461,12 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/mediacas/libclearkeycasplugin.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-full-21.7",
+                "libprotobuf-cpp-full",
                 "libutils",
                 "liblog",
                 "libcrypto",
                 "libstagefright_foundation",
-                "libprotobuf-cpp-lite-21.7",
+                "libprotobuf-cpp-lite",
                 "libc++",
                 "libc",
                 "libm",
@@ -17529,12 +17478,12 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so",
             ],
             shared_libs: [
-                "libprotobuf-cpp-full-21.7",
+                "libprotobuf-cpp-full",
                 "libutils",
                 "liblog",
                 "libcrypto",
                 "libstagefright_foundation",
-                "libprotobuf-cpp-lite-21.7",
+                "libprotobuf-cpp-lite",
                 "libc++",
                 "libc",
                 "libm",
@@ -24481,6 +24430,107 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.bluetooth.audio-impl-mediatek",
+    owner: "lava",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libbinder_ndk",
+                "libcutils",
+                "libfmq",
+                "liblog",
+                "android.hardware.bluetooth.audio-V3-ndk",
+                "libbluetooth_audio_session_aidl_mtk",
+                "vendor.mediatek.hardware.bluetooth.audio-V1-ndk",
+                "vendor.mediatek.hardware.bluetooth.audio@2.1",
+                "vendor.mediatek.hardware.bluetooth.audio@2.2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.power-service-mediatek",
+    owner: "lava",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.hardware.power-service-mediatek.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libbase",
+                "libbinder_ndk",
+                "android.hardware.power-V4-ndk",
+                "libutils",
+                "libcutils",
+                "libdrm",
+                "vendor.mediatek.hardware.mtkpower@1.0",
+                "vendor.mediatek.hardware.mtkpower@1.1",
+                "vendor.mediatek.hardware.mtkpower@1.2",
+                "vendor.mediatek.hardware.mtkpower-V1-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.gnss-impl-mediatek",
+    owner: "lava",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "libbinder_ndk",
+                "libhidlbase",
+                "libutils",
+                "liblog",
+                "libhardware",
+                "android.hardware.gnss-V3-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
 }
@@ -50792,6 +50842,42 @@ prebuilt_etc_xml {
     soc_specific: true,
 }
 
+prebuilt_etc_xml {
+    name: "manifest_dsds.xml",
+    owner: "lava",
+    src: "proprietary/odm/etc/vintf/manifest_dsds.xml",
+    filename_from_src: true,
+    sub_dir: "vintf",
+    device_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "manifest_qsqs.xml",
+    owner: "lava",
+    src: "proprietary/odm/etc/vintf/manifest_qsqs.xml",
+    filename_from_src: true,
+    sub_dir: "vintf",
+    device_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "manifest_ss.xml",
+    owner: "lava",
+    src: "proprietary/odm/etc/vintf/manifest_ss.xml",
+    filename_from_src: true,
+    sub_dir: "vintf",
+    device_specific: true,
+}
+
+prebuilt_etc_xml {
+    name: "manifest_tsts.xml",
+    owner: "lava",
+    src: "proprietary/odm/etc/vintf/manifest_tsts.xml",
+    filename_from_src: true,
+    sub_dir: "vintf",
+    device_specific: true,
+}
+
 cc_prebuilt_binary {
     name: "AgentTest",
     owner: "lava",
@@ -52127,7 +52213,7 @@ cc_prebuilt_binary {
                 "libbinder_ndk",
                 "libcrypto",
                 "liblog",
-                "libprotobuf-cpp-lite-21.7",
+                "libprotobuf-cpp-lite",
                 "libutils",
                 "android.hardware.drm-V1-ndk",
                 "libc++",
@@ -54867,33 +54953,4 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.audio.parameter_parser.service",
-    owner: "lava",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/bin/hw/android.hardware.audio.parameter_parser.service",
-            ],
-            shared_libs: [
-                "av-audio-types-aidl-V1-ndk",
-                "android.hardware.audio.core-V2-ndk",
-                "libbase",
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    system_ext_specific: true,
 }

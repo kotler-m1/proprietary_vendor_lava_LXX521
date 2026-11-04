@@ -6,10 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lava/LXX521
 
 PRODUCT_COPY_FILES += \
-    vendor/lava/LXX521/proprietary/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_dsds.xml \
-    vendor/lava/LXX521/proprietary/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_qsqs.xml \
-    vendor/lava/LXX521/proprietary/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ss.xml \
-    vendor/lava/LXX521/proprietary/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_tsts.xml \
     vendor/lava/LXX521/proprietary/system/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
     vendor/lava/LXX521/proprietary/system/etc/audio_effects.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.xml \
     vendor/lava/LXX521/proprietary/system/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf \
@@ -1553,13 +1549,11 @@ PRODUCT_COPY_FILES += \
     vendor/lava/LXX521/proprietary/vendor/rw.prop:$(TARGET_COPY_OUT_VENDOR)/rw.prop
 
 PRODUCT_PACKAGES += \
-    graphicbuffersource-aidl-ndk \
     libmedia_codeclist \
     libstagefright_aidl_bufferpool2 \
     libstagefright_bufferpool@2.0.1 \
     libstagefright_codecbase \
     libstagefright_framecapture_utils \
-    libstagefright_graphicbuffersource_aidl \
     libstagefright_surface_utils \
     arm.graphics-V4-ndk \
     arm.mali.platform-V2-ndk \
@@ -1869,6 +1863,7 @@ PRODUCT_PACKAGES += \
     liboemcrypto \
     libpda_usdriver \
     libperfctl_vendor \
+    libpixelflinger \
     libpkm \
     libpower_timer \
     libpowerhal \
@@ -2088,6 +2083,9 @@ PRODUCT_PACKAGES += \
     libvcodecdrv_vendor_mt6878 \
     APUWareApusysAidlServer \
     APUWareUtilsAidlServer \
+    android.hardware.bluetooth.audio-impl-mediatek \
+    android.hardware.power-service-mediatek \
+    android.hardware.gnss-impl-mediatek \
     audio.primary.mt6878 \
     audio.r_submix.mt6878 \
     fingerprint.default \
@@ -2863,6 +2861,10 @@ PRODUCT_PACKAGES += \
     power-mediatek.xml \
     thermal-mediatek.xml \
     vibrator-mtk-default.xml \
+    manifest_dsds.xml \
+    manifest_qsqs.xml \
+    manifest_ss.xml \
+    manifest_tsts.xml \
     AgentTest \
     aee_aedv64_v2 \
     aee_dumpstatev_v2 \
@@ -2994,5 +2996,4 @@ PRODUCT_PACKAGES += \
     wlan_assistant \
     wmt_launcher \
     wmt_loader \
-    wpa_cli \
-    android.hardware.audio.parameter_parser.service
+    wpa_cli
