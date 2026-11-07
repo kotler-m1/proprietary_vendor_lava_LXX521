@@ -6,6 +6,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/lava/LXX521
 
 PRODUCT_COPY_FILES += \
+    vendor/lava/LXX521/proprietary/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_dsds.xml \
+    vendor/lava/LXX521/proprietary/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_qsqs.xml \
+    vendor/lava/LXX521/proprietary/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ss.xml \
+    vendor/lava/LXX521/proprietary/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_tsts.xml \
     vendor/lava/LXX521/proprietary/system/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
     vendor/lava/LXX521/proprietary/system/etc/audio_effects.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.xml \
     vendor/lava/LXX521/proprietary/system/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf \
@@ -1557,8 +1561,8 @@ PRODUCT_PACKAGES += \
     libstagefright_surface_utils \
     arm.graphics-V4-ndk \
     arm.mali.platform-V2-ndk \
-    audioclient-types-aidl-cpp \
-    av-types-aidl-cpp \
+    audioclient-types-aidl-cpp_legacy \
+    av-types-aidl-cpp_legacy \
     libEGL_angle \
     libGLES_mali \
     libGLES_meow \
@@ -1637,7 +1641,7 @@ PRODUCT_PACKAGES += \
     libOpenCL \
     libSQLiteModule_VER_ALL \
     libTEECommon \
-    lib_android_keymaster_keymint_utils \
+    lib_android_keymaster_keymint_utils_legacy \
     lib_iir \
     lib_power_applist \
     libaaa_afassist_V2 \
@@ -1666,7 +1670,7 @@ PRODUCT_PACKAGES += \
     libasn1c_mdmi \
     libaudio_aidl_conversion_common_ndk \
     libaudio_param_parser-vnd \
-    libaudioclient_aidl_conversion \
+    libaudioclient_aidl_conversion_legacy \
     libaudiocompensationfilter_vendor \
     libaudiocompensationfilterc \
     libaudiocomponentengine_vendor \
@@ -1770,7 +1774,7 @@ PRODUCT_PACKAGES += \
     libion_mtk \
     libion_ulit \
     libipsec_ims_shr \
-    libkeymint \
+    libkeymint_legacy \
     libkeymint_tool \
     libkeystore-wifi-hidl \
     libkmsetkey \
@@ -1884,7 +1888,6 @@ PRODUCT_PACKAGES += \
     librt_extamp_intf \
     libruy \
     libscltm \
-    libsensorndkbridge \
     libsfplugin_ccodec_utils \
     libshmemcompat \
     libshmemutil \
@@ -2861,10 +2864,6 @@ PRODUCT_PACKAGES += \
     power-mediatek.xml \
     thermal-mediatek.xml \
     vibrator-mtk-default.xml \
-    manifest_dsds.xml \
-    manifest_qsqs.xml \
-    manifest_ss.xml \
-    manifest_tsts.xml \
     AgentTest \
     aee_aedv64_v2 \
     aee_dumpstatev_v2 \
@@ -2910,13 +2909,13 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1-service-mediatek \
     android.hardware.boot-service.mtk \
     android.hardware.cas-service.example \
-    android.hardware.contexthub-service.tinysys \
+    android.hardware.contexthub-service.tinysys_legacy \
     android.hardware.drm-service.clearkey \
     android.hardware.gatekeeper-service.trustkernel \
     android.hardware.gnss-service.mediatek \
     android.hardware.graphics.allocator-V2-service-mediatek.mt6878 \
     android.hardware.graphics.composer@3.2-service \
-    android.hardware.health-service.example \
+    android.hardware.health-service.example_legacy \
     android.hardware.lights-service.mediatek \
     android.hardware.media.c2@1.2-mediatek \
     android.hardware.media.c2@1.2-mediatek-64b \
@@ -2925,12 +2924,12 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks-shim-service-mtk-lazy \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.security.keymint@3.0-service.trustkernel \
-    android.hardware.sensors-service.multihal \
+    android.hardware.sensors-service.multihal_legacy \
     android.hardware.thermal-service.mediatek \
     android.hardware.usb-aidl-service.mediatekv1.0 \
     android.hardware.usb.gadget-aidl-service.mediatekv1.0 \
     android.hardware.vibrator-service.mediatek \
-    android.hardware.wifi-service-lazy \
+    android.hardware.wifi-service-lazy_legacy \
     arm.mali.platform-service.mediatek.mt6878 \
     camerahalserver \
     hostapd \

@@ -379,7 +379,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audioclient-types-aidl-cpp",
+    name: "audioclient-types-aidl-cpp_legacy",
+    stem: "audioclient-types-aidl-cpp",
     owner: "lava",
     strip: {
         none: true,
@@ -424,7 +425,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "av-types-aidl-cpp",
+    name: "av-types-aidl-cpp_legacy",
+    stem: "av-types-aidl-cpp",
     owner: "lava",
     strip: {
         none: true,
@@ -4342,7 +4344,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "lib_android_keymaster_keymint_utils",
+    name: "lib_android_keymaster_keymint_utils_legacy",
+    stem: "lib_android_keymaster_keymint_utils",
     owner: "lava",
     strip: {
         none: true,
@@ -5567,7 +5570,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libaudioclient_aidl_conversion",
+    name: "libaudioclient_aidl_conversion_legacy",
+    stem: "libaudioclient_aidl_conversion",
     owner: "lava",
     strip: {
         none: true,
@@ -5587,8 +5591,8 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "shared-file-region-aidl-cpp",
                 "framework-permission-aidl-cpp",
-                "audioclient-types-aidl-cpp",
-                "av-types-aidl-cpp",
+                "audioclient-types-aidl-cpp_legacy",
+                "av-types-aidl-cpp_legacy",
                 "libc++",
                 "libc",
                 "libm",
@@ -5609,8 +5613,8 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "shared-file-region-aidl-cpp",
                 "framework-permission-aidl-cpp",
-                "audioclient-types-aidl-cpp",
-                "av-types-aidl-cpp",
+                "audioclient-types-aidl-cpp_legacy",
+                "av-types-aidl-cpp_legacy",
                 "libc++",
                 "libc",
                 "libm",
@@ -5955,8 +5959,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "android.media.audio.common.types-V2-cpp",
-                "audioclient-types-aidl-cpp",
-                "libaudioclient_aidl_conversion",
+                "audioclient-types-aidl-cpp_legacy",
+                "libaudioclient_aidl_conversion_legacy",
                 "libaudioutils",
                 "libbase",
                 "libbinder",
@@ -5975,8 +5979,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "android.media.audio.common.types-V2-cpp",
-                "audioclient-types-aidl-cpp",
-                "libaudioclient_aidl_conversion",
+                "audioclient-types-aidl-cpp_legacy",
+                "libaudioclient_aidl_conversion_legacy",
                 "libaudioutils",
                 "libbase",
                 "libbinder",
@@ -10722,7 +10726,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libkeymint",
+    name: "libkeymint_legacy",
+    stem: "libkeymint",
     owner: "lava",
     strip: {
         none: true,
@@ -10738,7 +10743,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.security.rkp-V3-ndk",
                 "android.hardware.security.secureclock-V1-ndk",
                 "android.hardware.security.sharedsecret-V1-ndk",
-                "lib_android_keymaster_keymint_utils",
+                "lib_android_keymaster_keymint_utils_legacy",
                 "libbase",
                 "libbinder_ndk",
                 "libcppbor_external",
@@ -10765,7 +10770,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.security.rkp-V3-ndk",
                 "android.hardware.security.secureclock-V1-ndk",
                 "android.hardware.security.sharedsecret-V1-ndk",
-                "lib_android_keymaster_keymint_utils",
+                "lib_android_keymaster_keymint_utils_legacy",
                 "libbase",
                 "libbinder_ndk",
                 "libcppbor_external",
@@ -10805,7 +10810,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libcrypto",
-                "libkeymint",
+                "libkeymint_legacy",
                 "libteec",
                 "libbinder_ndk",
                 "android.hardware.security.keymint-V3-ndk",
@@ -10826,7 +10831,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libcrypto",
-                "libkeymint",
+                "libkeymint_legacy",
                 "libteec",
                 "libbinder_ndk",
                 "android.hardware.security.keymint-V3-ndk",
@@ -15781,51 +15786,6 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsensorndkbridge",
-    owner: "lava",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libsensorndkbridge.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libbinder_ndk",
-                "libutils",
-                "android.frameworks.sensorservice-V1-ndk",
-                "android.hardware.sensors-V2-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsensorndkbridge.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libbinder_ndk",
-                "libutils",
-                "android.frameworks.sensorservice-V1-ndk",
-                "android.hardware.sensors-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -50842,42 +50802,6 @@ prebuilt_etc_xml {
     soc_specific: true,
 }
 
-prebuilt_etc_xml {
-    name: "manifest_dsds.xml",
-    owner: "lava",
-    src: "proprietary/odm/etc/vintf/manifest_dsds.xml",
-    filename_from_src: true,
-    sub_dir: "vintf",
-    device_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "manifest_qsqs.xml",
-    owner: "lava",
-    src: "proprietary/odm/etc/vintf/manifest_qsqs.xml",
-    filename_from_src: true,
-    sub_dir: "vintf",
-    device_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "manifest_ss.xml",
-    owner: "lava",
-    src: "proprietary/odm/etc/vintf/manifest_ss.xml",
-    filename_from_src: true,
-    sub_dir: "vintf",
-    device_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "manifest_tsts.xml",
-    owner: "lava",
-    src: "proprietary/odm/etc/vintf/manifest_tsts.xml",
-    filename_from_src: true,
-    sub_dir: "vintf",
-    device_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "AgentTest",
     owner: "lava",
@@ -52166,7 +52090,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.contexthub-service.tinysys",
+    name: "android.hardware.contexthub-service.tinysys_legacy",
+    stem: "android.hardware.contexthub-service.tinysys",
     owner: "lava",
     target: {
         android_arm64: {
@@ -52374,7 +52299,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.health-service.example",
+    name: "android.hardware.health-service.example_legacy",
+    stem: "android.hardware.health-service.example",
     owner: "lava",
     target: {
         android_arm64: {
@@ -52696,7 +52622,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.sensors-service.multihal",
+    name: "android.hardware.sensors-service.multihal_legacy",
+    stem: "android.hardware.sensors-service.multihal",
     owner: "lava",
     target: {
         android_arm64: {
@@ -52863,7 +52790,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.wifi-service-lazy",
+    name: "android.hardware.wifi-service-lazy_legacy",
+    stem: "android.hardware.wifi-service-lazy",
     owner: "lava",
     target: {
         android_arm64: {
