@@ -33413,7 +33413,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libmtkcam_ulog",
                 "libbinder_ndk",
-                "android.hardware.camera.common-V2-ndk",
+                "android.hardware.camera.common-V1-ndk",
                 "android.hardware.camera.device-V2-ndk",
                 "libcamera_metadata",
                 "libc++",
@@ -44507,7 +44507,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libmtkcam_ulog",
                 "libbinder_ndk",
-                "android.hardware.camera.common-V2-ndk",
+                "android.hardware.camera.common-V1-ndk",
                 "android.hardware.camera.device-V2-ndk",
                 "libcamera_metadata",
                 "libc++",
@@ -53497,7 +53497,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "wpa_supplicant",
+    name: "wpa_supplicant_legacy",
+    stem: "wpa_supplicant",
     owner: "lava",
     target: {
         android_arm64: {

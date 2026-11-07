@@ -2949,7 +2949,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.nvram-service \
     vendor.mediatek.hardware.pq_aidl-service \
     vtservice_aidl \
-    wpa_supplicant \
+    wpa_supplicant_legacy \
     ipsec_mon \
     jpegtool \
     kph \
