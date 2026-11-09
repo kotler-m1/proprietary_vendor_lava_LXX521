@@ -1668,7 +1668,7 @@ PRODUCT_PACKAGES += \
     libasn1c_core \
     libasn1c_mapi \
     libasn1c_mdmi \
-    libaudio_aidl_conversion_common_ndk \
+    libaudio_aidl_conversion_common_ndk_legacy \
     libaudio_param_parser-vnd \
     libaudioclient_aidl_conversion_legacy \
     libaudiocompensationfilter_vendor \
