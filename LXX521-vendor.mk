@@ -1678,7 +1678,7 @@ PRODUCT_PACKAGES += \
     libaudiocustparam_vendor \
     libaudiodcrflt_vendor \
     libaudiofmtconv \
-    libaudiofoundation \
+    libaudiofoundation_legacy \
     libaudioloudc \
     libaudioprimarydevicehalifclient \
     libaudiosmartpamtk \
@@ -1688,7 +1688,6 @@ PRODUCT_PACKAGES += \
     libbessound_hd_mtk_vendor \
     libblisrc32_vendor \
     libbluetooth_audio_session \
-    libbluetooth_audio_session_aidl \
     libbluetooth_audio_session_aidl_mtk \
     libbluetooth_audio_session_mediatek \
     libbluetooth_hw_test \

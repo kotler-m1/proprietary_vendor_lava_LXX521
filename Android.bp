@@ -1567,7 +1567,6 @@ cc_prebuilt_library_shared {
                 "libbinder_ndk",
                 "vendor.mediatek.hardware.bluetooth.audio@2.1",
                 "vendor.mediatek.hardware.bluetooth.audio@2.2",
-                "vendor.mediatek.hardware.bluetooth.audio-V1-ndk",
                 "android.hardware.bluetooth.audio-V3-ndk",
                 "android.hardware.audio.common@5.0",
                 "libtinycompress",
@@ -1611,7 +1610,6 @@ cc_prebuilt_library_shared {
                 "libbinder_ndk",
                 "vendor.mediatek.hardware.bluetooth.audio@2.1",
                 "vendor.mediatek.hardware.bluetooth.audio@2.2",
-                "vendor.mediatek.hardware.bluetooth.audio-V1-ndk",
                 "android.hardware.bluetooth.audio-V3-ndk",
                 "android.hardware.audio.common@5.0",
                 "libtinycompress",
@@ -1626,6 +1624,7 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "both",
     relative_install_path: "hw",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -2828,7 +2827,6 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "vendor.mediatek.hardware.bluetooth.audio@2.1",
-                "vendor.mediatek.hardware.bluetooth.audio-V1-ndk",
                 "android.hardware.bluetooth.audio-V3-ndk",
                 "libbase",
                 "libbluetooth_audio_session_mediatek",
@@ -2854,7 +2852,6 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "vendor.mediatek.hardware.bluetooth.audio@2.1",
-                "vendor.mediatek.hardware.bluetooth.audio-V1-ndk",
                 "android.hardware.bluetooth.audio-V3-ndk",
                 "libbase",
                 "libbluetooth_audio_session_mediatek",
@@ -2877,6 +2874,7 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "both",
     relative_install_path: "hw",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -2895,7 +2893,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "vendor.mediatek.hardware.bluetooth.audio@2.1",
                 "vendor.mediatek.hardware.bluetooth.audio@2.2",
-                "vendor.mediatek.hardware.bluetooth.audio-V1-ndk",
                 "android.hardware.bluetooth.audio-V3-ndk",
                 "libbase",
                 "libbluetooth_audio_session_mediatek",
@@ -2922,7 +2919,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "vendor.mediatek.hardware.bluetooth.audio@2.1",
                 "vendor.mediatek.hardware.bluetooth.audio@2.2",
-                "vendor.mediatek.hardware.bluetooth.audio-V1-ndk",
                 "android.hardware.bluetooth.audio-V3-ndk",
                 "libbase",
                 "libbluetooth_audio_session_mediatek",
@@ -2945,6 +2941,7 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "both",
     relative_install_path: "hw",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -5948,7 +5945,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libaudiofoundation",
+    name: "libaudiofoundation_legacy",
+    stem: "libaudiofoundation",
     owner: "lava",
     strip: {
         none: true,
@@ -6381,7 +6379,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "liblog",
                 "libutils",
-                "libbluetooth_audio_session_aidl",
+                "libbluetooth_audio_session_aidl_legacy",
                 "libc++",
                 "libc",
                 "libm",
@@ -6402,7 +6400,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "liblog",
                 "libutils",
-                "libbluetooth_audio_session_aidl",
+                "libbluetooth_audio_session_aidl_legacy",
                 "libc++",
                 "libc",
                 "libm",
@@ -6411,12 +6409,13 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
-    prefer: true,
+    prefer: false,
     soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
-    name: "libbluetooth_audio_session_aidl",
+    name: "libbluetooth_audio_session_aidl_legacy",
+    stem: "libbluetooth_audio_session_aidl",
     owner: "lava",
     strip: {
         none: true,
@@ -6490,7 +6489,6 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "android.hardware.bluetooth.audio-V3-ndk",
-                "vendor.mediatek.hardware.bluetooth.audio-V1-ndk",
                 "libhidlbase",
                 "libxml2",
                 "libc++",
@@ -6512,7 +6510,6 @@ cc_prebuilt_library_shared {
                 "libfmq",
                 "liblog",
                 "android.hardware.bluetooth.audio-V3-ndk",
-                "vendor.mediatek.hardware.bluetooth.audio-V1-ndk",
                 "libhidlbase",
                 "libxml2",
                 "libc++",
@@ -6523,6 +6520,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -24525,7 +24523,6 @@ cc_prebuilt_library_shared {
                 "libbinder_ndk",
                 "vendor.mediatek.hardware.bluetooth.audio@2.1",
                 "vendor.mediatek.hardware.bluetooth.audio@2.2",
-                "vendor.mediatek.hardware.bluetooth.audio-V1-ndk",
                 "android.hardware.bluetooth.audio-V3-ndk",
                 "android.hardware.audio.common@5.0",
                 "libtinycompress",
@@ -24540,6 +24537,7 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     relative_install_path: "hw",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -51876,7 +51874,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/android.hardware.audio.service.mediatek",
             ],
             shared_libs: [
-                "libaudiofoundation",
+                "libaudiofoundation_legacy",
                 "libcutils",
                 "libbinder",
                 "libbinder_ndk",
